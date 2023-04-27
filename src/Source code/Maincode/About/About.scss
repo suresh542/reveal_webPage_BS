@@ -1,0 +1,67 @@
+.AboutImage {
+    img {
+        margin: 0 0 0 0;
+        // font-size: 30px;
+        width: 100%;
+
+    }
+
+    text-align: left;
+    // object-fit: cover;
+
+}
+
+.AboutRightSide {
+    line-height: 20px;
+
+    h2 {
+        text-align: left;
+        color: #0C2E8A;
+        font-size: 40px;
+        letter-spacing: .5px;
+        font-weight: 500;
+    }
+
+    .display-5 {
+        font-size: 20px;
+        font-style: italic;
+        // font-weight: 100;
+        text-align: left;
+        color: gray;
+        // font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    ul {
+        margin: 30px 0 10px 0px;
+
+        li {
+            text-align: left;
+            font-size: 19px;
+            padding: 0 0 25px 0;
+
+            // color: rgb(82, 82, 82);
+            p {
+                padding: 0 0px 0 10px;
+            }
+
+            i {
+                color: #50D8AF;
+            }
+
+        }
+    }
+}
+
+.aboutIcons {
+    color: #50D8AF;
+    padding: 0px 0 0px 0px;
+}
+
+@media only screen and (max-width:767px) {
+    .AboutRightSide {
+        h2 {
+            font-size: 25px;
+            font-weight: 900;
+        }
+    }
+}

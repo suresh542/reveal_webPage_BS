@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.socialContact {
+    font-size: 15px;
+}
+@media only screen and (max-width: 767px){
+    .topBar{
+        margin: 0%;
+        font-size: 10px;
+    }
+}
+.icons{
+    color: #50D8AF;
+}
+.content-info{
+    a{
+        color: black;
+        &:hover{
+            color: #50D8AF;
+            transition: 0.5s;
+        }
+    }
+}
+.contactHeader {
+    box-shadow: 0.5px 0.5px 1px 0.5px rgb(100, 100, 100);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 7px;
+}
+
+.socialMediaIcons {
+    a {
+        margin-right: 15px;
+        padding: 0 10px 0 0;
+        border-right: 1px solid rgb(167, 167, 167);
+        position: relative;
+        color: #525252;
+        &:hover{
+            color: #50D8AF;
+            transition: all 0.5s;
+        }
+    }
+}
+.navbarMain{
+    a{
+        // padding: 10px;
+        font-weight: 900;
+        color: #0C2E8A;
+        font-size: 40px;
+        span{
+            color: #50D8AF;
+        }
+    }
+}
+.navbarContent{
+    li{
+        a{
+            font-size: 16px;
+            font-weight: 500;
+            color: #696969;
+            &:focus{
+                color: #50D8AF;
+            }
+            &:hover{
+                color: #50D8AF;
+            }
+        }
+        color: #696969;
+        &:hover{
+            color: #50D8AF;
+            transition: all 0.5s;
+        }
+    }
+}
+.nav-link,.nav-link:focus{
+    color: #50D8AF;
+    margin: 0 15px 0 0;
+
+}
+@media only screen and (max-width: 768px){
+    .navbarMain{
+        a{
+            font-size: 27px;
+        }
+        button{
+            display: inline-block;
+            margin-left: 60vw;
+        }
+    }
+
+}
