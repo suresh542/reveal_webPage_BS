@@ -32,8 +32,8 @@ export default function Home() {
                         Making <span>your ideas</span> <br /> happen!
                     </h2>
                     <div className="buttons mt-5">
-                        <a href="about" className="btn-getStarted ">Get Started</a>
-                        <a href="content" className="btn-OurProject">Our Project</a>
+                        <a href="#About" className="btn-getStarted scrollto">Get Started</a>
+                        <a href="#service" className="btn-OurProject scrollto">Our Project</a>
                     </div>
                 </div>
             </section>

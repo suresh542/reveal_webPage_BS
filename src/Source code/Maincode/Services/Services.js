@@ -122,7 +122,7 @@ export default function Services(props) {
                     </div>
                 </div>
             </div>
-            <div className="Clients">
+            <div className="Clients" data-aos="fade-up">
                 <h2 className="text-uppercase text-start">Client</h2>
                 <div className="para text-start mt-4">
                     Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore

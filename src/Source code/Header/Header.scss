@@ -57,10 +57,11 @@
 }
 .navbarContent{
     li{
+        
         a{
             font-size: 16px;
             font-weight: 500;
-            color: #696969;
+            // color: #696969;
             &:focus{
                 color: #50D8AF;
             }
@@ -80,6 +81,22 @@
     margin: 0 15px 0 0;
 
 }
+#nav-link{
+    ul{
+        li{
+            &:hover{
+                display: flex;
+            }
+        }
+    }
+&:hover{
+    color: #50D8AF;
+
+}
+&:active{
+    color: #50D8AF;
+}
+}
 @media only screen and (max-width: 768px){
     .navbarMain{
         a{
@@ -88,6 +105,15 @@
         button{
             display: inline-block;
             margin-left: 60vw;
+        }
+    }
+    .navbarContent{
+        li {
+            padding: 10px;
+            a{
+                display: flex;
+                justify-content: center;
+            }
         }
     }
 
